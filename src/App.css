@@ -10,6 +10,26 @@ body{
   align-items: center;
 }
 
+.brand-products-wrapper{
+  padding: 2rem 0;
+}
 .brand-products-wrapper img{
   width: 100%;
+  aspect-ratio: 3 / 4;
+}
+
+.banner-wrapper img{    
+  aspect-ratio: 7 / 3;
+}
+
+.product-item-col{
+  position: relative;
+  background-color: lightblue;
+  height: 100%;
+  padding: 1.25rem 1rem 4rem;
+}
+.product-item-col .btn{
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
 }
