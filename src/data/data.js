@@ -246,9 +246,12 @@ const products =
 
 
 
-export default products;
-
 const bannerImages = [
-    "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "/images/banner-1.jpg",
+    "/images/banner-2.jpg",
+    "/images/banner-3.jpg",
 
 ]
+
+export {products, bannerImages};
+
